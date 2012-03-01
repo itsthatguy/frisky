@@ -1,4 +1,6 @@
 Frisky::Application.routes.draw do
+  resources :beards
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

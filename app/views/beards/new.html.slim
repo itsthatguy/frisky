@@ -1,0 +1,13 @@
+h1 Beards#new
+=form_tag "/beards",  :multipart => true do
+  p
+    label
+      | Title
+      input type='text' name='title'
+  p
+    label
+      | Choose a File
+      input type='file' name='file'
+  p
+    label
+      button type='submit' Submit
